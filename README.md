@@ -32,7 +32,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-
+```
 module funct1(a,b,c,d,f1);
 input a,b,c,d;
 output f1;
@@ -45,7 +45,7 @@ input w,x,y,z;
 output f2;
 assign f2=((~y & z)|( w & y )|(x & y));
 endmodule
-
+```
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
 Developed by: RegisterNumber:*/
